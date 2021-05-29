@@ -188,6 +188,12 @@ header {
         &.search {
           margin: 0 -.5rem 0 0;
         }
+
+        &.subscription {
+          display: inline;
+          padding: 0.5rem 1rem 0.5rem 1rem;
+          font-weight: bold;
+        }
       }
 
       a.active {
@@ -313,6 +319,12 @@ header {
       .menu-item {
         display: block;
         line-height: 2.5rem;
+
+        &.subscription {
+          padding-top: 0.3rem;
+          padding-bottom: 0.3rem;
+          font-weight: bold;
+        }
       }
 
       &.active {
