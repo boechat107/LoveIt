@@ -1,0 +1,16 @@
+$tcolor: whitesmoke;
+
+a.button {
+  border-radius: 8px;
+  border: none;
+  padding: .8rem 1.5rem;
+  display: inline-block;
+  background-color: #ae3030;
+  color: $tcolor;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    color: $tcolor;
+  }
+}

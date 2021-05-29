@@ -92,4 +92,8 @@
             {{- . | safeHTML -}}
         </h3>
     {{- end -}}
+
+    {{- with .Site.Params.subscription -}}
+        <a class="button home-subscription" href="{{.link}}" rel="nofollow" target="_blank">{{.text}}</a>
+    {{- end -}}
 </div>
