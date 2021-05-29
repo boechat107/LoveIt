@@ -7,6 +7,14 @@
                     {{- safeHTML . -}}
                 </div>
             {{- end -}}
+            {{- /* Subscription */ -}}
+            {{- with .Site.Params.Subscription -}}
+                <div class="footer-line">
+                    <a class="button subscription" href="{{.link}}" rel="nofollow" target="_blank" title="Subscribe">
+                        {{.text}}
+                    </a>
+                </div>
+            {{- end -}}
 
             {{- /* Hugo and LoveIt */ -}}
             {{- if ne .Site.Params.footer.hugo false -}}
